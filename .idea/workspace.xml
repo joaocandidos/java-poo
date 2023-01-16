@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="485c47aa-c7f2-4962-be01-8c56104d3e2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atividade2/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atividade2/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atividade2/TestaFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atividade2/TestaFuncionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +39,26 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestaFuncionario">
+  <component name="RunManager" selected="Application.TestaCurso">
     <configuration name="TestaCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="atividade1.TestaCliente" />
       <module name="java-poo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="atividade1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atividade6.TestaCurso" />
+      <module name="java-poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atividade6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaCurso" />
         <item itemvalue="Application.TestaFuncionario" />
         <item itemvalue="Application.TestaCliente" />
       </list>
@@ -84,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673867289878</updated>
       <workItem from="1673867291436" duration="5190000" />
-      <workItem from="1673885352655" duration="2659000" />
+      <workItem from="1673885352655" duration="4270000" />
     </task>
     <servers />
   </component>
