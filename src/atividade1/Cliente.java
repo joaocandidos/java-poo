@@ -4,14 +4,14 @@ public class Cliente {
     private int id;
     private int idade;
     private int rg;
-    private int cpf;
+    private String endereco;
     private String nome;
 
-    public Cliente(int id, int idade, int rg, int cpf, String nome) {
+    public Cliente(int id, int idade, int rg, String endereco, String nome) {
         this.id = id;
         this.idade = idade;
         this.rg = rg;
-        this.cpf = cpf;
+        this.endereco = endereco;
         this.nome = nome;
     }
 
@@ -39,12 +39,12 @@ public class Cliente {
         this.rg = rg;
     }
 
-    public int getCpf() {
-        return cpf;
+    public String getCpf() {
+        return endereco;
     }
 
-    public void setCpf(int cpf) {
-        this.cpf = cpf;
+    public void setCpf(String endereco) {
+        this.endereco = endereco;
     }
 
     public String getNome() {
@@ -55,13 +55,14 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public void vusializar(){
-        System.out.println("id: "+getId());
-        System.out.println("nome: "+getNome());
-        System.out.println("idade: "+getIdade());
-        System.out.println("rg: "+getRg());
-        System.out.println("cpf: "+getCpf());
-        System.out.println("***********************************");
+    public void visualizar(){
+        System.out.println("****************************************");
+        System.out.println("id: "+ this.id);
+        System.out.println("nome: "+this.nome);
+        System.out.println("idade: "+this.idade);
+        System.out.println("rg: "+this.rg);
+        System.out.println("endereco: "+this.endereco);
+
 
     }
 

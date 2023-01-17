@@ -1,4 +1,4 @@
-import atividade1.Cliente;
+/*import atividade1.Cliente;
 
 public class Atividades1a3 {
     package atividade1;
@@ -245,4 +245,4 @@ public class TestaCurso {
         curso2.vusializar();
     }
 }
-//////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
